@@ -1,0 +1,15 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+root {
+  --color-background: rgb(251, 247, 233);
+  --color-green-font: rgb(251, 247, 233);
+  --color-green-bg: rgb(18, 74, 44);
+  --color-blue-light: rgb(93, 192, 254);
+  --color-blue-med: rgb(21, 165, 255);
+}
