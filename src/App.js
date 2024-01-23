@@ -20,7 +20,7 @@ export default function App() {
           <button>Take the 3 Min Quiz</button>
           <p>Start for free, cancel anytime</p>
           <img
-            src="./img/home_hero.png"
+            src="/img/home_hero.png"
             alt="woman proudly texting her progress"
           />
         </div>
