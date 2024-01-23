@@ -2,6 +2,8 @@
   background-color: var(--color-background);
   color: var(--color-green);
   display: flex;
+  font-family: 'Rubik Variable', sans-serif;
+  font-size: 1.2rem;
   justify-content: center;
   height: 6rem;
   border-style: dotted;
@@ -20,7 +22,7 @@
     ul {
       display: flex;
       list-style: none;
-      gap: 3rem;
+      gap: 3.5rem;
     }
   }
   img {
@@ -28,9 +30,21 @@
     border-color: red;
     max-height: 6rem;
   }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
 }
 
-.header a {
-  color: inherit;
-  text-decoration: none;
+.getstarted {
+  background-color: var(--color-blue-light);
+  color: white;
+  font-family: 'Rubik Variable', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 1rem 2rem;
 }

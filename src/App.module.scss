@@ -8,20 +8,32 @@
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;
+  justify-content: space-around;
   margin-top: 5rem;
   border-style: dotted;
   border-color: orange;
   padding: 2rem 0 0 2rem;
 
   img {
-    max-width: 40rem;
+    max-width: 50rem;
     border-style: dotted;
     border-color: pink;
   }
 
   .herotext {
-    align-self: flex-start;
-    max-width: 50rem;
+    align-self: center;
+    max-width: 40rem;
+    min-width: 20rem;
+    border-style: dotted;
+    border-color: red;
+    overflow-wrap: break-word;
+
+    p {
+      color: var(--color-green);
+      font-family: 'Rubik Variable', sans-serif;
+      border-style: dotted;
+      border-color: chartreuse;
+    }
   }
 }
 
@@ -29,4 +41,5 @@
   font-family: Headline;
   color: var(--color-green);
   font-size: 4.2rem;
+  line-height: 95%;
 }

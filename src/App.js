@@ -1,4 +1,5 @@
 import './index.scss';
+import '@fontsource-variable/rubik';
 import styles from './App.module.scss';
 import Header from './Header';
 
