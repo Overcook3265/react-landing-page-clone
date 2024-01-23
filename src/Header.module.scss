@@ -3,15 +3,34 @@
   color: var(--color-green);
   display: flex;
   justify-content: center;
-}
+  height: 6rem;
+  border-style: dotted;
+  border-color: blue;
+  position: fixed;
+  width: 100%;
 
-a {
-  color: inherit;
-}
-
-nav {
-  ul {
+  nav {
     display: flex;
-    list-style: none;
+    border-style: dotted;
+    border-color: green;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+
+    ul {
+      display: flex;
+      list-style: none;
+      gap: 3rem;
+    }
   }
+  img {
+    border-style: dotted;
+    border-color: red;
+    max-height: 6rem;
+  }
+}
+
+.header a {
+  color: inherit;
+  text-decoration: none;
 }

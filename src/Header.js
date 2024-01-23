@@ -3,6 +3,10 @@ import styles from './Header.module.scss';
 export default function Header() {
   return (
     <header className={styles.header}>
+      <img
+        src="img/logo.png"
+        alt="Logo of sunnyside, a rising sun over green text"
+      />
       <nav>
         <ul>
           <li>
