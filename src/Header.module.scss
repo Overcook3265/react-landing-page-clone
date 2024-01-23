@@ -1,0 +1,12 @@
+.header {
+  background-color: var(--color-green-bg);
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  ul {
+    display: flex;
+    list-style: none;
+  }
+}
