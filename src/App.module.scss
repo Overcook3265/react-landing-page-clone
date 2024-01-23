@@ -1,2 +1,32 @@
 .wrapper {
+  margin: 0 auto;
+  border-style: dotted;
+  border-color: blue;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  border-style: dotted;
+  border-color: orange;
+  padding: 2rem 0 0 2rem;
+
+  img {
+    max-width: 40rem;
+    border-style: dotted;
+    border-color: pink;
+  }
+
+  .herotext {
+    align-self: flex-start;
+    max-width: 50rem;
+  }
+}
+
+.headline1 {
+  font-family: Headline;
+  color: var(--color-green);
+  font-size: 4.2rem;
 }
