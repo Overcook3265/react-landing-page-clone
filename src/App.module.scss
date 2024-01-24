@@ -21,7 +21,7 @@
     border-color: pink;
   }
 
-  .herotext {
+  .hero_text {
     align-self: center;
     max-width: 40rem;
     min-width: 20rem;
@@ -43,4 +43,19 @@
   color: var(--color-green);
   font-size: 4.2rem;
   line-height: 95%;
+}
+
+.three_min {
+  background-color: var(--color-blue-light);
+  border: none;
+  color: white;
+  font-family: 'Rubik Variable', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 1rem 2rem;
+  transition-duration: 0.25s;
+
+  &:hover {
+    background-color: var(--color-blue-med);
+  }
 }

@@ -22,7 +22,7 @@ export default function Header() {
             <a href="/">Log In</a>
           </li>
           <li>
-            <button className={styles.getstarted}>Get started</button>
+            <button className={styles.get_started}>Get started</button>
           </li>
         </ul>
       </nav>

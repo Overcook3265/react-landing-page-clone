@@ -15,7 +15,7 @@ export default function App() {
                 src="/img/home_hero.png"
                 alt="woman proudly texting her progress"
               />
-              <div className={styles.herotext}>
+              <div className={styles.hero_text}>
                 <h1 className={styles.headline1}>
                   Cut back on your drinking with no pressure to quit.
                 </h1>
@@ -24,7 +24,9 @@ export default function App() {
                   back. If you're one of them, we have the tools to help, and
                   we'll never judge you.
                 </p>
-                <button>Take the 3 Min Quiz</button>
+                <button className={styles.three_min}>
+                  Take the 3 Min Quiz
+                </button>
                 <p>Start for free, cancel anytime</p>
               </div>
             </div>
